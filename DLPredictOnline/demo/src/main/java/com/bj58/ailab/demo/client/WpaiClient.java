@@ -81,7 +81,8 @@ public class WpaiClient {
 
     public void greet(String name) {
 //        TensorflowDssm.tensorflowClient(blockingStub);
-        TensorflowWideAndDeep.tensorflowClient(blockingStub);
+        //TensorflowWideAndDeep.tensorflowClient(blockingStub);
+        PyTorchClient.client(blockingStub);
     }
 
     public void shutdown() throws InterruptedException {

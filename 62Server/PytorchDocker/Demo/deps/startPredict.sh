@@ -1,7 +1,7 @@
 #!/bin/bash
 
 cd /opt
-pip install -r /opt/requirements.txt
+#pip install -r /opt/requirements.txt
 rm -rf /etc/podinfo
 mkdir -p /etc/podinfo
 echo seldon.io/grpc-max-message-size=\"10485760\" >> /etc/podinfo/annotations

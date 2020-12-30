@@ -65,7 +65,7 @@ public class PyTorchClient {
         ByteString bsdata = ByteString.copyFrom(content);
 
         Map<String, Value> tagsMap = new HashMap<>(1);
-        Value taskId = Value.newBuilder().setNumberValue(39).build();
+        Value taskId = Value.newBuilder().setNumberValue(66).build();
         tagsMap.put("taskid", taskId);
         
         PredictionProtos.Meta meta = PredictionProtos.Meta.newBuilder().putAllTags(tagsMap).build();
